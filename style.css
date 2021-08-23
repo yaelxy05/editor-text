@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 27rem;
+    background-color: #317AC1;
+    border-radius: 1rem;
+}
+
+.main_select {
+    display: flex;
+}
+select, input {
+    height: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    border-radius: 1.2rem;
+    border: none;
+    font-weight: 700;
+}
+#text_area {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+button {
+    background: rgb(8, 172, 95);
+    padding: 1rem;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 1.2rem;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}

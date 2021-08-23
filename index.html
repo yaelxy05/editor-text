@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <form action="">
+            <div class="main_select">
+                <select name="select_gras" id="select_gras">
+                    <option value="">Choisissez le type de gras</option>
+                    <option value="bold">bold</option>
+                    <option value="normal">normal</option>
+                    <option value="lighter">lighter</option>
+                </select>
+
+                <input type="text" id="size_input" placeholder="Saisissez la taille du texte">
+
+                <select name="police_style" id="police_style">
+                    <option value="">Choisissez le style de police</option>
+                    <option value="Arial">Arial</option>
+                    <option value="Comic Sans MS">Comic Sans MS</option>
+                </select>
+
+                <select name="color_text" id="color_text">
+                    <option value="">Choisissez la couleur de texte</option>
+                    <option value="red">rouge</option>
+                    <option value="blue">bleu</option>
+                    <option value="purple">violet</option>
+                    <option value="white">blanc</option>
+                    <option value="black">noir</option>
+                    <option value="pink">rose</option>
+                </select>
+            </div>
+            <div class="main_text_area">
+                <textarea name="text_area" id="text_area" cols="100" rows="13">
+
+                </textarea>
+            </div>
+            <button>Visualiser</button>
+        </form>
+
+        <div class="text_view">
+            <p></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
